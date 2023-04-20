@@ -5,6 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
+    <FrameLayout
+        android:id="@+id/fragmentCont"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnNav"></FrameLayout>
     <com.google.android.material.bottomnavigation.BottomNavigationView
     android:id="@+id/btnNav"
     android:layout_width="match_parent"
